@@ -27,9 +27,8 @@ namespace WarmupWebApi
         {
             // we are starting, so report the service in error state
             RegisterHealthEvent("Boot", HealthState.Error, TimeSpan.FromSeconds(300));
-
             //simulate initialization time (e.g. IoC container config, cache loads etc) before moving on
-            Thread.Sleep(TimeSpan.FromSeconds(5));
+            Thread.Sleep(TimeSpan.FromSeconds(15));
         }
 
         internal static void AfterServiceTypeRegistered() { }
@@ -37,7 +36,7 @@ namespace WarmupWebApi
         internal static void OnStartupCreated()
         {
             //simulate configuration time for the Api
-            Thread.Sleep(TimeSpan.FromSeconds(10));
+            Thread.Sleep(TimeSpan.FromSeconds(15));
         }
 
         internal static void OnStartupConfigurationEnd()
