@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ServiceWarmup", "ServiceWarmup\ServiceWarmup.sfproj", "{261A0557-CF42-41DA-BA74-315BCEC77365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarmupWebApi", "..\..\Users\sej\Documents\Visual Studio 2015\Projects\ServiceWarmup\WarmupWebApi\WarmupWebApi.csproj", "{38470C1F-6600-4C61-BF79-4C32F88C4C1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{261A0557-CF42-41DA-BA74-315BCEC77365}.Debug|x64.ActiveCfg = Debug|x64
+		{261A0557-CF42-41DA-BA74-315BCEC77365}.Debug|x64.Build.0 = Debug|x64
+		{261A0557-CF42-41DA-BA74-315BCEC77365}.Debug|x64.Deploy.0 = Debug|x64
+		{261A0557-CF42-41DA-BA74-315BCEC77365}.Release|x64.ActiveCfg = Release|x64
+		{261A0557-CF42-41DA-BA74-315BCEC77365}.Release|x64.Build.0 = Release|x64
+		{261A0557-CF42-41DA-BA74-315BCEC77365}.Release|x64.Deploy.0 = Release|x64
+		{38470C1F-6600-4C61-BF79-4C32F88C4C1D}.Debug|x64.ActiveCfg = Debug|x64
+		{38470C1F-6600-4C61-BF79-4C32F88C4C1D}.Debug|x64.Build.0 = Debug|x64
+		{38470C1F-6600-4C61-BF79-4C32F88C4C1D}.Release|x64.ActiveCfg = Release|x64
+		{38470C1F-6600-4C61-BF79-4C32F88C4C1D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
