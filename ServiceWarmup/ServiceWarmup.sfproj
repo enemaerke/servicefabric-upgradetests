@@ -27,7 +27,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Users\sej\Documents\Visual Studio 2015\Projects\ServiceWarmup\WarmupWebApi\WarmupWebApi.csproj" />
+    <ProjectReference Include="..\WarmupWebApi\WarmupWebApi.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
